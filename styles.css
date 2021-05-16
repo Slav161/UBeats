@@ -1,3 +1,4 @@
+/*----HEADER*/
 header {
   position: fixed;
   width: 100%;
@@ -15,76 +16,112 @@ header {
   /*     border: 1px solid goldenrod;
  */
 }
+button {
+    background: white;
+    width: 78px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #E0E0E0;
+    transition: all 0.3s ease-in;
+  }
+  button:hover {
+    background: rgb(221, 221, 221);
+    width: 78px;
+    height: 40px;
+    border-radius: 7px;
+  }
+  .header__enter {
+    /*  border: 1px solid rgb(50, 20, 220); */
+  
+    padding: 10px 26px;
+  }
+  .header__basket {
+    /*   border: 1px solid crimson; */
+    height: 72px;
+  }
 .header__items {
   display: flex;
   align-items: center;
   justify-content: space-between;
   /*  border: 1px solid rgb(32, 165, 218); */
 }
+/*----HEADER END*/
+
+/*MEDIA*/
 @media screen and (max-width: 640px) {
   .header__basket {
     display: none;
   }
   .header__container {
     margin-left: 8px;
-    margin-right: 16px;
+    margin-right: 0px;
     margin-top: 0.5rem;
   }
+  .header__enter {
+    padding: inherit 0px;
+  }
 }
-@media screen and (max-width: 1123px) {
+/* @media screen and (max-width: 1123px) {
   .header__container {
     margin-left: 8px;
     margin-right: 8px;
   }
-}
-@media screen and (min-width: 1124px) {
+} */
+/* @media screen and (min-width: 1124px) {
   .header__container {
     margin-left: 84px;
     margin-right: 84px;
   }
-}
-@media screen and (min-width: 1440px) {
+} */
+/* @media screen and (min-width: 1440px) {
   .header__container {
-    margin-left: 155px;
-    margin-right: 155px;
+    margin-left: 25%;
+    margin-right: 25%;
   }
+} */
+/*-----NAV*/
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+    color:#757575;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 4rem ;
 }
-button {
-  background: white;
-  width: 78px;
-  height: 40px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
-  transition: all 0.3s ease-in;
-}
-button:hover {
-  background: rgb(221, 221, 221);
-  width: 78px;
-  height: 40px;
-  border-radius: 7px;
-  box-shadow: 0px 0px 10px rgb(105, 160, 105, 45%);
-}
-button:focus {
-  background: rgba(155, 197, 155, 0.644);
-  border-radius: 7px;
-  /*transition: none; */
-}
-.header__enter {
-  /*  border: 1px solid rgb(50, 20, 220); */
-
-  padding: 10px 26px;
-}
-.header__basket {
-  /*   border: 1px solid crimson; */
-  height: 72px;
+input:focus{ 
+    border: none;
+    border-bottom: 1px solid #757575;
+    color:#757575;
+    outline: 0;
+    outline-offset: 0; 
 }
 .main-content {
-  margin-top: 7%;
+  margin-top: 6rem;
   margin: inherit 25%;
 }
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
 .alltext {
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+.fs16
+{
+  font-size: 16px;
+}
+.fs22
+{
+  font-size: 22px;
+}
+
+.preview {
+  display: inline-flexbox;
+
+}
+.card{
+  border: 1px solid rebeccapurple;  
 }
