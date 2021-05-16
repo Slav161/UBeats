@@ -170,6 +170,8 @@ a{
   }
 footer{
   background: #262626;
+  margin-top: 100px;
+  
 }
 .footer__container{
   padding-top: 3rem;
@@ -185,7 +187,36 @@ footer{
 .tag{
   color: #ffffff;
 }
-.social { 
+.footer__social { 
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.footer__about a{
+  display: flex;
+  flex-wrap: wrap; 
+  padding-bottom: 23px; 
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0s ease-in;
+}
+.footer__about a:hover{
+  text-decoration: underline;
+  transform: scale(1.01);
+  transition: 0.2s ease-in;
+}
+.footer__underaboutline{
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.footer__downloads{
+  display: flex;
+  justify-content: center;
+}
+.dlink {
+  padding: 0px  1.5rem;
+}
+  
+.footer__underdlline{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
