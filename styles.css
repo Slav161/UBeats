@@ -181,6 +181,29 @@ footer{
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+.select__language{
+  display: flex;
+  margin-bottom: 1rem;
+  background-color: #3b3b3b;
+  width: 40%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.footer__icons a{
+  padding-right: 0.5rem;
+}
+#lang{
+  width: 100%;
+  height: 40px;
+  background-color: #3b3b3b;
+  border: none;
+  font-size: 13px;
+  line-height: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  outline: 0;
+  outline-offset: 0; 
+}
 .hash{
   color: #49A144;
 }
@@ -191,10 +214,11 @@ footer{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.footer__about a{
-  display: flex;
-  flex-wrap: wrap; 
-  padding-bottom: 23px; 
+.footer__about p {
+  display: inline-flex;
+  width: 100%;
+}
+.footer__about a {
   text-decoration: none;
   color: #ffffff;
   transition: all 0s ease-in;
@@ -214,8 +238,14 @@ footer{
 }
 .dlink {
   padding: 0px  1.5rem;
+  opacity: 50%;
+  transition: opacity 0.2s ease-in;
 }
-  
+.dlink:hover {
+  padding: 0px  1.5rem;
+  opacity: 100%;
+}  
+
 .footer__underdlline{
   padding-bottom: 2rem;
   padding-top: 2rem;
