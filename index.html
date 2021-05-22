@@ -16,79 +16,309 @@
     />
   </head>
   <body>
-      <!-- HEADER -->
-      <header class="header">
-        <div class="header__container">
-          <div class="header__logo">
-            <a href="#"><img src="img/logo/ubereats.svg" alt="UBEREATS" /></a>
-          </div>
-          <div class="header__items">
-            <div class="header__enter alltext">
-              <button type="button">Войти</button>
-            </div>
-            <div class="header__basket">
-              <a href=""> <img src="img/logo/basket.svg" alt="basket" /></a>
+                                   <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="header__container">
+              <div class="header__logo" id="logo">
+                <a href="#"
+                  ><img src="img/logo/ubereats.svg" alt="UBEREATS"
+                /></a>
+              </div>
+              <div class="header__items">
+                <div class="header__enter alltext">
+                  <button type="button">Войти</button>
+                </div>
+                <div class="header__basket">
+                  <a href=""> <img src="img/logo/basket.svg" alt="basket" /></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </header>   
-    <div class="main-content">
-      <nav class="search">
-        <div class="container">
-          <form class="search__form">
-            <input
-              type="text"
-              name="q"
-              placeholder="Поиск по ресторанам и кухням"
-            />
-          </form>
+      </div>
+    </header>
+    <div class="main-content">    <!-- For "margin" from fixed header -->
+                                  <!-- NAV -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <nav class="search alltext">
+              <form class="search__form">
+                <input
+                  type="text"
+                  name="q"
+                  placeholder="Поиск по ресторанам и кухням"
+                />
+              </form>
+            </nav>
+          </div>
         </div>
-      </nav>
+      </div>
+                                  <!-- MAIN -->
       <main>
-        <article class="preview">
-          <section class="header"></section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <section class="main-header">
+                <span class="place alltext fs22">Рестораны в Москве</span>
+              </section>
+            </div>
+          </div>
+        </div>
+        <article class="preview alltext">
           <div class="container">
-            <section class="card">
-              <div class="row">
-                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-2">
-                  <figure>
-                    <img src="img/mac.png" alt="" class="image__restr" />
-                  </figure>
-                  <div class="name">Макдоналдс - Газетный</div>
-                  <div class="discription">₽₽ • Бургеры</div>
-                  <div class="time">25 - 35 мин</div>
-                </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/mac2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">Макдоналдс - Газетный</div>
+                        <div class="discription">₽₽ • Бургеры</div>
+                        <div class="time">25 - 35 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
               </div>
-            </section>
-            <section class="card">
-              <figure>
-                <img src="img/mac.png" alt="" class="image__restr" />
-              </figure>
-              <div class="name">Макдоналдс - Газетный</div>
-              <div class="discription">₽₽ • Бургеры</div>
-              <div class="time">25 - 35 мин</div>
-            </section>
-            <section class="card">
-              <div class="row">
-                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-2">
-                  <figure>
-                    <img src="img/mac.png" alt="" class="image__restr" />
-                  </figure>
-                  <div class="name">Макдоналдс - Газетный</div>
-                  <div class="discription">₽₽ • Бургеры</div>
-                  <div class="time">25 - 35 мин</div>
-                </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/DimSum2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">DimSum & Co — ЦДМ</div>
+                        <div class="discription">
+                          ₽ • Японская • Китайская • Азиатская
+                        </div>
+                        <div class="time">40 - 50 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
               </div>
-            </section>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/Dvij2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">ДвижОК — Манежная</div>
+                        <div class="discription">
+                          ₽ • Американская • Европейская
+                        </div>
+                        <div class="time">35 - 45 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/nha2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">НЯ — NHA</div>
+                        <div class="discription">₽₽ • Вьетнамская</div>
+                        <div class="time">30 - 40 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/dzi2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">Точка Дзы — Цветной</div>
+                        <div class="discription">₽₽ • Вьетнамская</div>
+                        <div class="time">40 - 50 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/cinn2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">Cinnabon</div>
+                        <div class="discription">
+                          ₽ • Выпечка • Десерты • Капкейки
+                        </div>
+                        <div class="time">25 - 35 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/pizz2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">PIZZELOVE</div>
+                        <div class="discription">₽₽ • Пицца</div>
+                        <div class="time">15 - 25 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/zu2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">Zю кафе — Тверская</div>
+                        <div class="discription">₽₽ • Японская</div>
+                        <div class="time">25 - 35 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="card">
+                  <a href="rest.html" class="restpage" target="_blank">
+                    <figure class="card__content">
+                      <div class="card__image">
+                        <img src="img/Stores/bq2.png" alt="" />
+                      </div>
+                      <figcaption>
+                        <div class="name">Bar BQ Cafe — Манежная</div>
+                        <div class="discription">₽₽₽ • Европейская</div>
+                        <div class="time">30 - 40 мин</div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </section>
+              </div>
+            </div>
           </div>
         </article>
       </main>
     </div>
-    <footer></footer>
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-2">
-        <div>Responsive</div>
+                                <!-- FOOTER -->
+    <footer>
+      <div class="footer__container alltext">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">             
+              <div class="footer__logo">
+                <a href="#"
+                  ><img src="img/logo/white-logo.svg" alt="UBEREATS"
+                /></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__underlogoline"><hr /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="select__language">
+                <img src="img/ic/Shape.svg" alt="">
+                <select name="lang" id="lang">
+                  <option value="ru">Русский</option>
+                  <option value="en">English</option>
+                  <option value="kz">Казахский</option>
+                  <option value="ua">Украинский</option>
+                </select>
+              </div>
+              <div class="footer__social">
+              <div class="hashtag">
+                <p>
+                  <span class="hash">#</span><span class="tag">UberEats</span>
+                </p>
+              </div>
+                <p class="footer__icons">
+                  <a href="#"
+                  ><img src="img/ic/24/social/facebook.svg" alt=""
+                  /></a>
+                  <a href="#"
+                  ><img src="img/ic/24/social/twitter.svg" alt=""
+                  /></a>
+                  <a href="#"
+                  ><img src="img/ic/24/social/instagram.svg" alt=""
+                  /></a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#">Об UberEats</a></p>
+                <p><a href="#">Станьте партнёром по доставке</a></p>
+                <p><a href="#">Станьте парнёром-рестораном</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+               <p> <a href="#">Все города</a></p>
+               <p> <a href="#">Цены</a></p>
+               <p> <a href="#">Помощь</a></p>
+               <p> <a href="#">FAQs</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__underaboutline"><hr /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__downloads">
+                <div class="dlink">
+                  <a href="#"><img src="img/ic/aps.png" alt="" /></a>
+                </div>
+                <div class="dlink">
+                  <a href="#"><img src="img/ic/gp.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__underdlline"><hr /></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#"> © 2017 Uber Technologies Inc.</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#"> Обработка персональных данных</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#"> Пользовательское соглашение</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
