@@ -1,12 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pushkin</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+  />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="header__container">
+              <div class="header__logo" id="logo">
+                <a href="index.html"
+                  ><img src="img/logo/ubereats.svg" alt="UBEREATS"
+                /></a>
+              </div>
+              <div class="header__items">
+                <div class="header__enter alltext">
+                  <button type="button">Войти</button>
+                </div>
+                <div class="header__basket">
+                  <a href=""> <img src="img/logo/basket.svg" alt="basket" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     
-</body>
+      <!-- For "margin" from fixed header -->
+
+      <!-- MAIN -->
+      
+        <div class="main__head_background mask">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-5 col-xl-5">
+                
+                 <div class="name_r alltext">
+                  <p class="name__rest ">
+                    Трактир «Пушкин»
+                  </p>
+                  <div class="name__price__time">
+                    <div class="name__price">₽₽₽ • Европейская</div>
+                    <div class="name__time">40 - 50 мин</div>
+                  </div>
+                 </div>
+               </div>
+          </div>
+      </div>
+        </div>
+      <!-- NAV -->
+      <div class="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-0 col-sm-0 col-md-10 col-lg-9 col-xl-8">
+            <nav class="navi alltext">
+              <div class="navi__sub"><a href="#">Закуски</div></a>
+              <div class="navi__sub"><a href="#">Салаты</div></a>
+              <div class="navi__sub"><a href="#">Супы</div></a>
+              <div class="navi__sub"><a href="#">Горячие блюда</div></a>
+              <div class="navi__sub"><a href="#">Гарниры</div></a>
+              <div class="navi__sub"><a href="#">Десерты</div></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+      <main> 
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <section class="dish__card alltext">
+                <a href="rest.html" class="restpage" target="_blank">
+                  <div class="dish__text">
+                    <div class="name">Сельдь на бородинском хлебе</div>
+                    <div class="dish__disc discription">С яйцом и огурцом</div>
+                    <div class="dish__price name">240 ₽</div> 
+                  </div>
+                  <div class="dish__image">
+                  <figure class="dish__content">
+                      <img src="img/Restaurant/seld.png" alt="" />
+                      <figcaption>                     
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <section class="dish__card alltext">
+                <a href="rest.html" class="restpage" target="_blank">
+                  <div class="dish__text">
+                    <div class="dish__name">Соленья ассорти</div>                    
+                    <div class="dish__price name">320 ₽</div> 
+                  </div>
+                  <div class="dish__image">
+                  <figure class="dish__content">
+                      <img src="img/Restaurant/ogur.png" alt="" />
+                      <figcaption>                     
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <section class="dish__card alltext">
+                <a href="rest.html" class="restpage" target="_blank">
+                  <div class="dish__text">
+                    <div class="dish__name">Грибы маринованные</div>
+                    <div class="dish__price name">300 ₽</div> 
+                  </div>
+                  <div class="dish__image">
+                  <figure class="dish__content">
+                      <img src="img/Restaurant/grib.png" alt="" />
+                      <figcaption>                     
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <section class="dish__card alltext">
+                <a href="rest.html" class="restpage" target="_blank">
+                  <div class="dish__text">
+                    <div class="name">Сало домашнее с горчицей</div>
+                    <div class="dish__price name">320 ₽</div> 
+                  </div>
+                  <div class="dish__image">
+                  <figure class="dish__content">
+                      <img src="img/Restaurant/salo.png" alt="" />
+                      <figcaption>                     
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <section class="dish__card alltext">
+                <a href="rest.html" class="restpage" target="_blank">
+                  <div class="dish__text">
+                    <div class="name">Малосольная семга</div>
+                    <div class="dish__price name">390 ₽</div> 
+                  </div>
+                  <div class="dish__image">
+                  <figure class="dish__content">
+                      <img src="img/Restaurant/riba.png" alt="" />
+                      <figcaption>                     
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </section>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <section class="dish__card alltext">
+                <a href="rest.html" class="restpage" target="_blank">
+                  <div class="dish__text">
+                    <div class="name">Язык говяжий с хреном</div>
+                    <div class="dish__price name">350 ₽</div> 
+                  </div>
+                  <div class="dish__image">
+                  <figure class="dish__content">
+                      <img src="img/Restaurant/yaz.png" alt="" />
+                      <figcaption>                     
+                      </figcaption>
+                    </figure>
+                  </div>
+                </a>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer__container alltext">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__logo">
+                <a href="#"
+                  ><img src="img/logo/white-logo.svg" alt="UBEREATS"
+                /></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__underlogoline"><hr /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="select__language">
+                <img src="/img/ic/Shape.svg" alt="" />
+                <select name="lang" id="lang">
+                  <option value="ru">Русский</option>
+                  <option value="en">English</option>
+                  <option value="kz">Казахский</option>
+                  <option value="ua">Украинский</option>
+                </select>
+              </div>
+              <div class="footer__social">
+                <div class="hashtag">
+                  <p>
+                    <span class="hash">#</span><span class="tag">UberEats</span>
+                  </p>
+                </div>
+                <p class="footer__icons">
+                  <a href="#"
+                    ><img src="/img/ic/24/social/facebook.svg" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="/img/ic/24/social/twitter.svg" alt=""
+                  /></a>
+                  <a href="#"
+                    ><img src="/img/ic/24/social/instagram.svg" alt=""
+                  /></a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#">Об UberEats</a></p>
+                <p><a href="#">Станьте партнёром по доставке</a></p>
+                <p><a href="#">Станьте парнёром-рестораном</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#">Все города</a></p>
+                <p><a href="#">Цены</a></p>
+                <p><a href="#">Помощь</a></p>
+                <p><a href="#">FAQs</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__underaboutline"><hr /></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__downloads">
+                <div class="dlink">
+                  <a href="#"><img src="/img/ic/aps.png" alt="" /></a>
+                </div>
+                <div class="dlink">
+                  <a href="#"><img src="/img/ic/gp.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="footer__underdlline"><hr /></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#"> © 2017 Uber Technologies Inc.</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#"> Обработка персональных данных</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="footer__about">
+                <p><a href="#"> Пользовательское соглашение</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
