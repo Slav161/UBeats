@@ -353,9 +353,6 @@ footer{
   font-size: 13px;
   /* border: 1px solid rebeccapurple; */  
 }
-.dish__price{
- /*  border: 1px solid rebeccapurple;  */ 
-}
 .dish__image{
   overflow: hidden;  
   flex-basis: 34%;
