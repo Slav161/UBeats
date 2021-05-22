@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UBstores</title>
+    <script src="sc.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap"
@@ -40,7 +41,7 @@
         </div>
       </div>
     </header>
-    <div class="main-content">    <!-- For "margin" from fixed header -->
+    <div class="main-content" id="up">    <!-- For "margin" from fixed header -->
                                   <!-- NAV -->
       <div class="container">
         <div class="row">
@@ -320,5 +321,8 @@
         </div>
       </div>
     </footer>
+    <a class="button-up" id="upbutton" href="#up" onclick="smoothJumpUp(); return false;">
+      <img src="/img/ic/btn-up.svg" alt="Top" border="none" title="Наверх">
+  </a>
   </body>
 </html>
